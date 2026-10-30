@@ -12,6 +12,7 @@ public class MainApp extends JFrame {
     public MainApp() {
         setTitle("Обчислення інтеграла (Метод Сімпсона)");
         setSize(400, 250);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridLayout(5, 2, 10, 10));
 
